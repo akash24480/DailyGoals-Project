@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    width: 100%;
+    background-color: #fff;
+    min-height: 100vh;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: poppins,sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input,textarea,button{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 10px;
+    font: 100 1.2rem poppins;
+}
+
+button{
+    background-color: rebeccapurple;
+    color: #fff;
+    transition: ease-in-out 0.5s;
+
+}
+button:hover{
+    background-color: blueviolet;
+}
+
+.task{
+    background-color: rgb(247,247,247);
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.802);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    font: 100 1.1rem poppins;
+    margin: 2vmax;
+}
+.task > div{
+    width: 100%;
+}
+
+.task span{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.deleteBtn{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteBtn:hover{
+    background-color: red;
+}
+
+footer{
+    padding: 10px;
+    background-color:  rgb(247,247,247);
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    
+}
